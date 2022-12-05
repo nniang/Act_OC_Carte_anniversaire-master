@@ -1,0 +1,36 @@
+#card {
+    border: 5px solid #00d8ff;
+    border-radius: 15px;
+    width: 845px;
+    height: 845px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 226, 252);
+}
+
+#happyBirthdayRectangle, .HappyBirthdaySmallRectangle {
+    color: rgb(240, 240, 240);
+    background-color: #77fffc;
+    margin-bottom: 15px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 3em;
+    border: dashed white;
+}
+
+#happyBirthdayRectangle{
+    height: 3em;
+    width: 10em;
+    line-height: 130px;
+}
+
+.HappyBirthdaySmallRectangle{
+    height: 2em;
+    width: 8em;
+    line-height: 90px;
+
+#smallPara{
+    margin-top: 7em;
+}

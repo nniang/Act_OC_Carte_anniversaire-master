@@ -1,0 +1,13 @@
+(descriptif demandé dans l'activité)
+
+La carte possède le fonctionnement suivant :
+
+1) Avant les clics, fond d'écran uniforme et premier gros rectangle "joyeux anniversaire" visible
+
+2) A chaque clic, apparition des petits rectangles suivant
+
+3) Au clic sur le dernier rectangle, changement du fond d'écran, lancement d'un son, lancement d'une frame d'animation pour faire clignoter le "joyeux anniversaire du premier gros rectangle" et disparition en fondu des 3 petits rectangles pour permettre de "rejouer" la carte sans recharger la page.
+
+Pour le fonctionnement j'ai utilisé jQuery pour les sélections, créé d'abord les paragraphes dans le HTML et masqué ceux-ci.
+Les clics leur rendent leur visibilité. Leur apparence est prédéfinie dans le fichier CSS, et modifiée également via javascript pour permettre les effets visuels.
+Le téléchargement du son est fait après que la page se soit chargée pour optimiser la vitesse de chargement.
